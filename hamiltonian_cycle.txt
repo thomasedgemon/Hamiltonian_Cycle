@@ -1,0 +1,18 @@
+#Hamiltonian cycles are a graph theoretic concept. A HC touches every vertex at exactly once,
+    and ends at the vertex where it began. The traveling salesman problem is an attempt to find
+    the shortest HC. The traveling salesman problem is an NP-Hard problem.
+
+-must find the most efficient way to store a graph. array, dictionary?
+-utilize pre-existing algorithms?
+
+consideration:
+    -begin at lowest-weighted edge. 
+    -choose the next smallest weighted edge among its connections.
+        how to avoid halting problem if two edges are of the same weight
+    -has every vertex been used/touched, and does the cycle end at the vertex
+    where it began?
+
+    if yes, print cycle
+    if no, return to line 10
+
+what if no cycle exists? return "no HC exists"

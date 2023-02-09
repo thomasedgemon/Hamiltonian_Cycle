@@ -1,7 +1,0 @@
-traveling salesman algo utilizing hamiltonian cycles
-
--represent graph as a set of tuples or array?
--treat tuples as variables, assign weights. does this affect tuple set. tuple set will be strings, unless there's
-a way to have a tuple with contains variables
--how to determine if vertices are connected?
--need search algorithm that isn't exponential.

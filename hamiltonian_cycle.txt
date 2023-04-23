@@ -16,3 +16,18 @@ consideration:
     if no, return to line 10
 
 what if no cycle exists? return "no HC exists"
+
+-graph storage must accept considerations such as hypergraphs and vertices with multiple connections.
+
+take edges as inputs, or vertices? which is simpler, if at all, and/or more computationally advantageous?
+
+?????    - - begin with any vertex. 
+        vertex_a = str(input("type a vertex: ")(
+        vertex_a = user given name of aforementioned vertex
+        
+   - -  take its connections and their weights as inputted tuples
+        vertex_a_connections = input("what are a's connections and their weights
+        
+        
+        
+     

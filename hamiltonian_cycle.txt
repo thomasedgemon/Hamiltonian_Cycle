@@ -22,12 +22,14 @@ what if no cycle exists? return "no HC exists"
 take edges as inputs, or vertices? which is simpler, if at all, and/or more computationally advantageous?
 
 ?????    - - begin with any vertex. 
-        vertex_a = str(input("type a vertex: ")(
-        vertex_a = user given name of aforementioned vertex
+        vertex_a = str(input("type a vertex: "))
+        **vertex_a = user given name of aforementioned vertex**
         
    - -  take its connections and their weights as inputted tuples
         vertex_a_connections = input("what are a's connections and their weights
         
-        
+ if it's a HC we are looking for, we cannot necessarily eliminate edges once they've been added to the cycle, as one might be needed later on to complete the cycle
+ 
+ ????? - - begin with vertex which has most connections?
         
      

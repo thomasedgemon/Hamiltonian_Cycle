@@ -1,35 +1,26 @@
-#Hamiltonian cycles are a graph theoretic concept. A HC touches every vertex at exactly once,
+#Hamiltonian cycles are a graph theoretic concept. A HC touches every other vertex exactly once,
     and ends at the vertex where it began. The traveling salesman problem is an attempt to find
     the shortest HC. The traveling salesman problem is an NP-Hard problem.
 
--must find the most efficient way to store a graph. array, dictionary?
--utilize pre-existing algorithms?
+1.must find the most efficient way to store a graph.
+    -store as tuples with vertex and its associated edges?
+    -store as edges with their associated weights? if so, will need to form array with list of all edges in order to keep track of them. 
+    -nested dictionaries?
+    -store as table with a.vertex, b. associated edges, and c. associated weights? but how to deal with redundancies if vertex has several edges? and edges must somehow also relate within the table back to their associated weights
+    -need a method that requires little to no parsing of strings.
 
-consideration:
-    -begin at lowest-weighted edge. 
-    -choose the next smallest weighted edge among its connections.
-        how to avoid halting problem if two edges are of the same weight
-    -has every vertex been used/touched, and does the cycle end at the vertex
-    where it began?
-
-    if yes, print cycle
-    if no, return to line 10
-
-what if no cycle exists? return "no HC exists"
-
--graph storage must accept considerations such as hypergraphs and vertices with multiple connections.
-
-take edges as inputs, or vertices? which is simpler, if at all, and/or more computationally advantageous?
-
-?????    - - begin with any vertex. 
-        vertex_a = str(input("type a vertex: "))
-        **vertex_a = user given name of aforementioned vertex**
-        
-   - -  take its connections and their weights as inputted tuples
-        vertex_a_connections = input("what are a's connections and their weights
-        
- if it's a HC we are looking for, we cannot necessarily eliminate edges once they've been added to the cycle, as one might be needed later on to complete the cycle
- 
- ????? - - begin with vertex which has most connections?
-        
-     
+2. algo? utilize preexisting ones? make new one?
+    -use greedy algorithm, but iterate to optimize?
+    -begin with lowest weighted edge?
+    -begin with hightest-connected vertex?
+    --how to avoid halting if two vertices have the same number of edges?
+    -how to represent the final cycle? as a string?
+   
+3. what if no cycle exists? return "no HC exists"
+    -do we want the next best thing?
+    
+4. further down the road:
+    -how to iterate in order to optimize, if several HC's exist within a graph?
+    -if no HC exists, create option to find the next best thing
+    -create GUI to make inputting data easier
+    -build in relevant theorems to weed out graphs which don't contain HC's.

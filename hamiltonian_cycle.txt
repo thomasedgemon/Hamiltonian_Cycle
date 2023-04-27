@@ -16,6 +16,7 @@
     -begin with hightest-connected vertex?
     --how to avoid halting if two vertices have the same number of edges?
     -how to represent the final cycle? as a string?
+    -- ** will highly depend upon the format of graph storage
    
 3. what if no cycle exists? return "no HC exists"
     -do we want the next best thing?

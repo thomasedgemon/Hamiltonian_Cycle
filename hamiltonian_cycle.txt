@@ -25,3 +25,7 @@
     -if no HC exists, create option to find the next best thing
     -create GUI to make inputting data easier
     -build in relevant theorems to weed out graphs which don't contain HC's.
+
+
+notes as i go: 
+    pandas is not very good for graph theory. not feasible to create an empty dataframe(table) and change names to vertices based on user-inputted table. making it "easier" on the user makes the takes considerably more challenging. the alternative is simply abandoning pandas and user-inputted data (for now) and simply using dicts and arrays. 

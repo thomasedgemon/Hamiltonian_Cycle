@@ -3,12 +3,14 @@
     the shortest HC. The traveling salesman problem is an NP-Hard problem.
 
 1.must find the most efficient way to store a graph.
+    -pandas data table? 
     -store as tuples with vertex and its associated edges?
     -store as edges with their associated weights? if so, will need to form array with list of all edges in order to keep track of them. would be challenging because edge "AB" would be the same as edge "BA" and would be difficult for code to recognize. 
     -nested dictionaries?
     -store as table with a.vertex, b. associated edges, and c. associated weights? but how to deal with redundancies if vertex has several edges? and edges must somehow also relate within the table back to their associated weights
     -need a method that requires little to no parsing of strings.
     -cannot use an array, as some Ith/Jth spaces will be unused for a graph which is not complete.
+    **-graph represented by a matrix will be along the diagonal only, with the rest as zeros. 
 
 2. algo? utilize preexisting ones? make new one?
     -use greedy algorithm, but iterate to optimize? if greedy algo is used, data must be stored as vertices--unless begin with edge rather than vertex??

@@ -11,6 +11,7 @@
     -need a method that requires little to no parsing of strings.
     -cannot use an array, as some Ith/Jth spaces will be unused for a graph which is not complete.
     **-graph represented by a matrix will be along the diagonal only, with the rest as zeros. 
+    -will need to maintain the original matrix in addition to the working one. 
 
 2. algo? utilize preexisting ones? make new one?
     -use greedy algorithm, but iterate to optimize? if greedy algo is used, data must be stored as vertices--unless begin with edge rather than vertex??

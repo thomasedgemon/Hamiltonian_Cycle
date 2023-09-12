@@ -25,8 +25,7 @@
 
 
 notes as i go: 
-    pandas is not very good for graph theory. not feasible to create an empty dataframe(table) and change names to vertices based on user-inputted table. making it "easier" on the user makes the takes considerably more challenging. the alternative is simply abandoning pandas and user-inputted data (for now) and simply using dicts and arrays. 
+    igraph seems to be the best option, but **igraph has a built in duplicate edge deletor, but (4,1) is not the same as (1,4) to the computer.**
 
-    **igraph has a built in duplicate edge deletor, but (4,1) is not the same as (1,4) to the computer.**
 
 

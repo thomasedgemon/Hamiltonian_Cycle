@@ -1,4 +1,4 @@
-python script using weights, undirected graphs stored in igraph objects in order to utilize an algorithm for TSP problem. 
+python script using weighted, undirected graphs stored in igraph objects in order to utilize an algorithm for TSP problem. 
 The Greedy Algorithm is used and then iterated in order to optimize. It's computational complexity is suboptimal and considerably higher than alternative (but considerably more complex) algorithms. 
 
 NetworkX library was considered, but it's speed is similar to igraph's according to https://graph-tool.skewed.de/performance using very large and highly connected graphs. 

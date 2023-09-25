@@ -26,6 +26,7 @@
 
 notes as i go: 
     igraph seems to be the best option, but **igraph has a built in duplicate edge deletor, but (4,1) is not the same as (1,4) to the computer.**
+    pandas makes it rather difficult to iterate across all cells and treat them as ints
 
 
 

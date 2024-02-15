@@ -6,6 +6,7 @@ the primary challenge is storing edges (which is to say, storing graphs via thei
 
 an interesting consideration for later work would be to find a novel way to storing graphs and their attributes, as well as a GUI for user input, as manually editing code for >10 vertices on a well-connected graph is not feasible and is mistake-prone. this can perhaps include the ability to import directly from a csv or Pandas DataFrame. 
 
+downside(?) to using a matrix is that half of it remains empty even for a fully connected graph. searching must avoid cells which are known to be null.
 
 **when represented as 2d matrices, what properties, if any, do cycles and minimum cycles display? 
 

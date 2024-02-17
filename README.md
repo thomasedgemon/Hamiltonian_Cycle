@@ -23,6 +23,13 @@ general conception:
   -else, stop, check length of new cycle, store lenth in var
 4. iterate algorithm: re-instantiate working graph, delete new graph, perform algorithm again
 
+general conception for each algorithm
+-develop algorithm
+-write algorithm as simply as possible
+-test algorithm
+-determine time complexity
+
+
 
 
 

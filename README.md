@@ -11,7 +11,7 @@ downside(?) to using a matrix is that half of it remains empty even for a fully 
 **when represented as 2d matrices, what properties, if any, do cycles and minimum cycles display? 
   -data representation could be a key. 
 
-current best exact alog: Ambainis et al with O(1.728^n)
+current best exact algo: Ambainis et al with O(1.728^n)
 other algos use MWST's, linear programming, ant colony routing, etc
 
 general conception:

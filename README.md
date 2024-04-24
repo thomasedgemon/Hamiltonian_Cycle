@@ -30,7 +30,7 @@ general conception for each algorithm
 -determine time complexity
 
 
-
+if matrices are used to represent the graphs, is there some property that hamiltonian cycles share when represented as matrices???
 
 
 idea 1: choose most-connected node first

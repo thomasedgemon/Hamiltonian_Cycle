@@ -35,3 +35,6 @@ if matrices are used to represent the graphs, is there some property that hamilt
 
 idea 1: choose most-connected node first
   (what if there are vertices of equal connections? randomly choose one?)
+
+current algos:
+  simulated annealing: make random walk as starting total distance. make small changes until the overall length decreases, and then finds an average lowest value. if new route is worse, accept it with increasingly lowering probability. 

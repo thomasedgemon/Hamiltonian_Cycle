@@ -37,4 +37,16 @@ idea 1: choose most-connected node first
   (what if there are vertices of equal connections? randomly choose one?)
 
 current algos:
-  simulated annealing: make random walk as starting total distance. make small changes until the overall length decreases, and then finds an average lowest value. if new route is worse, accept it with increasingly lowering probability. 
+  simulated annealing: make random walk as starting total distance. make small changes until the overall length decreases, and then finds an average lowest value. if new route is worse, accept it with increasingly             lowering probability. 
+  brute force: self explanatory. worst possible O(n)
+  Held-Karp:...
+  branch and bound: 
+  nearest neighbor: starts randomly and visits nearest new city until done. fast, but not exact or optimal
+  greedy: repeatedly adds shortest available edge.
+  Christofides: makes MWST, finds MW matching for odd degree vertices, and combines them
+  genetic: ...
+  ant colony:...
+  tabu: local search with memory that escapes local minima by allowing non-improving moves while preventing cycling
+  particle swarm:...
+  MST:...
+  k-opt: iteratively removes edges

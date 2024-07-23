@@ -52,6 +52,26 @@ print(first_vertex)
         #the first N same vertices?
 
     #at what point do we check that one even exists, much less an optimal one?
+
+    #is there a way to do this purely with the array/dict?
+    #search through all chars in array; if AB, is there a BC such that, CD, DA etc?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #____________________________________________________________________
 #find all of first_vertex edges
 incident_edges = original_graph.incident(first_vertex)

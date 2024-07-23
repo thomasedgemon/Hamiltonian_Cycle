@@ -47,6 +47,11 @@ print(first_vertex)
     #does the new graph contain every vertex? does it contain n+1 edges? if so, done. if not, start over. 
     #(is there a way to go back a few steps rather than starting over from scratch? would be faster. what is probability
     # of getting HC on the first try )
+
+    #to avoid (O)n^2, how do we avoid checking the same route twice? what are the odds the same one will be randomly chosen again? what about a very similar one? what are the odds of choosing
+        #the first N same vertices?
+
+    #at what point do we check that one even exists, much less an optimal one?
 #____________________________________________________________________
 #find all of first_vertex edges
 incident_edges = original_graph.incident(first_vertex)

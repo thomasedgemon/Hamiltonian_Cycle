@@ -54,7 +54,9 @@ print(first_vertex)
     #at what point do we check that one even exists, much less an optimal one?
 
     #is there a way to do this purely with the array/dict?
-    #search through all chars in array; if AB, is there a BC such that, CD, DA etc?
+    #search through all chars in array; if AB, is there a BC such that CD, DA etc?
+    #feasible to first find all HCs and then choose lowest? 
+        #what is the O(n) of this?
 
 
 
